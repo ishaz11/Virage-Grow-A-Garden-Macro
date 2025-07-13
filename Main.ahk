@@ -1612,7 +1612,7 @@ StartScanMultiInstance:
                 if (!MultiInstanceMode) {
                     SetTimer, AutoReconnect, 5000
                 }
-                SendInput, !{Tab}        ; Alt+Tab to switch window
+                SendInput, !{Tab}        ; Alt+Tab to switch windowaa
                 Sleep, 500               ; Wait for focus
 
                 SendInput, {Up down}     ; Hold Up arrow
